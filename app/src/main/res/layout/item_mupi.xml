@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_mupi_text_view"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        tools:text="ID: 00273"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/estacion_text_view"
+        android:layout_below="@+id/id_mupi_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="12sp"
+        tools:text="Estación: Aparcamiento Atocha"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ciudad_text_view"
+        android:layout_below="@+id/id_mupi_text_view"
+        android:layout_marginEnd="8sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="12sp"
+        tools:text="Ciudad: Madrid"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/estacion_text_view"
+        android:layout_margin="8sp"
+        android:background="@android:color/darker_gray"/>
+</RelativeLayout>

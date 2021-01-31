@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "64118630826",
+    "project_id": "gestimup",
+    "storage_bucket": "gestimup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64118630826:android:c7be582e552823bda723d3",
+        "android_client_info": {
+          "package_name": "com.example.mupin_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64118630826-h0rscdeito9ms8gaht7g5an7vmugbckq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb6i0WSpRVw7LYS27tRP3rdBlmt_pYOEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64118630826-h0rscdeito9ms8gaht7g5an7vmugbckq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
