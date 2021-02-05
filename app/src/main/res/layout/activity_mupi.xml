@@ -7,20 +7,103 @@
     android:visibility="visible"
     android:orientation="vertical"
     tools:context=".MupiActivity">
-
+<!--
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerMupi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+-->
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@android:drawable/ic_menu_search" />
+
+    <TextView
+        android:id="@+id/caras_text_view"
+        android:layout_width="129dp"
+        android:layout_height="37dp"
+        android:text="Caras"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <TextView
+            android:id="@+id/ciudad_text_view"
+            android:layout_width="365dp"
+            android:layout_height="43dp"
+            android:text="Ciudad"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="228dp"
+            tools:ignore="MissingConstraints" />
+
+    <TextView
+            android:id="@+id/tipo_mueble_text_view"
+            android:layout_width="361dp"
+            android:layout_height="38dp"
+            android:text="Tipo de Mueble"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="294dp"
+            tools:ignore="MissingConstraints" />
+
+    <TextView
+            android:id="@+id/limpieza_text_view"
+            android:layout_width="361dp"
+            android:layout_height="42dp"
+            android:text="Limpieza"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="354dp"/>
+
+
+    <TextView
+        android:id="@+id/mantenimiento_text_view"
+        android:layout_width="369dp"
+        android:layout_height="73dp"
+        android:text="Mantenimiento"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="416dp" />
+
+    <TextView
+            android:id="@+id/estacion_text_view"
+            android:layout_width="371dp"
+            android:layout_height="41dp"
+            android:text="Estación"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+            android:id="@+id/ubicacion_text_view"
+            android:layout_width="365dp"
+            android:layout_height="41dp"
+            android:text="Ubicación"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="173dp"/>
+
+    <TextView
+        android:id="@+id/id_text_view"
+        android:layout_width="103dp"
+        android:layout_height="38dp"
         android:visibility="visible"
-        tools:context=".MupiActivity"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-57dp"/>
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp"
+        tools:text="idMupi" />
 
-
+    <TextView
+        android:id="@+id/observaciones_text_view"
+        android:layout_width="369dp"
+        android:layout_height="110dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Observaciones"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="521dp" />
 
 </LinearLayout>

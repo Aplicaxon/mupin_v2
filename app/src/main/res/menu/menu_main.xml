@@ -7,4 +7,11 @@
         android:title="Sign_out"
         android:orderInCategory="100"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/buscar_mupi"
+        android:title="Buscar Mupi"
+        android:icon="@android:drawable/ic_menu_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
 </menu>

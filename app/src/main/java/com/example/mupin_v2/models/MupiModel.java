@@ -1,16 +1,16 @@
 package com.example.mupin_v2.models;
 
-public class Mupins {
+public class MupiModel {
 
     private int  caras;
     private String idMupi, tipoMueble, estacion, ubicacion, ciudad, limpieza, observaciones, mantenimiento, usuario;
 
-    public Mupins() {
+    public MupiModel() {
 
     }
 
-    public Mupins(String idMupi, int caras, String tipoMueble, String estacion, String ubicacion,
-                  String ciudad, String limpieza, String observaciones, String mantenimiento) {
+    public MupiModel(String idMupi, int caras, String tipoMueble, String estacion, String ubicacion,
+                     String ciudad, String limpieza, String observaciones, String mantenimiento) {
 
         this.idMupi = idMupi;
         this.caras = caras;

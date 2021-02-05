@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -12,7 +12,7 @@
         android:layout_marginStart="8sp"
         android:layout_marginEnd="8sp"
         android:textColor="@android:color/secondary_text_light"
-        android:textSize="18sp"
+        android:textSize="24sp"
         tools:text="ID: 00273"/>
 
     <TextView
@@ -22,24 +22,95 @@
         android:layout_below="@+id/id_mupi_text_view"
         android:textColor="@android:color/secondary_text_light"
         android:layout_marginStart="8sp"
-        android:textSize="12sp"
+        android:textSize="18sp"
         tools:text="Estación: Aparcamiento Atocha"/>
 
     <TextView
+        android:id="@+id/ciudad_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ciudad_text_view"
         android:layout_below="@+id/id_mupi_text_view"
-        android:layout_marginEnd="8sp"
         android:layout_alignParentEnd="true"
+        android:layout_marginStart="8sp"
+        android:layout_marginTop="-29dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8sp"
         android:textColor="@android:color/secondary_text_light"
-        android:textSize="12sp"
-        tools:text="Ciudad: Madrid"/>
+        android:textSize="18sp"
+        tools:text="Ciudad: Madrid" />
+
+    <TextView
+        android:id="@+id/caras_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estacion_text_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="12dp"
+        android:text="Caras"
+        android:textColor="@android:color/secondary_text_light"
+        android:textSize="18sp"
+        tools:text="Caras: 2" />
+
+    <TextView
+        android:id="@+id/ubicacion_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estacion_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="18sp"
+        android:text="Ubicación: Exterior Estación " />
+
+    <TextView
+        android:id="@+id/tipo_mueble_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ubicacion_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="18sp"
+        android:text="Tipo de Mueble: Mupi pared " />
+
+    <TextView
+        android:id="@+id/limpieza_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tipo_mueble_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="18sp"
+        android:text="Limpieza: Ext.x1,7.07+Int." />
+
+    <TextView
+        android:id="@+id/mantenimiento_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/limpieza_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="18sp"
+        android:text="Mantenimiento: " />
+
+    <TextView
+        android:id="@+id/observaciones_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mantenimiento_text_view"
+        android:textColor="@android:color/secondary_text_light"
+        android:layout_marginStart="8sp"
+        android:textSize="18sp"
+        android:text="Observaciones: Cristal estropeado por ácido - Cristal arañado"
+       />
+
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@+id/estacion_text_view"
-        android:layout_margin="8sp"
-        android:background="@android:color/darker_gray"/>
+        android:layout_margin="@dimen/fui_wrapper_padding_horiz"
+        android:layout_marginStart="8sp"
+        android:layout_below="@+id/observaciones_text_view"
+        android:layout_marginEnd="8sp"
+        android:layout_marginBottom="8sp"
+        android:background="@android:color/darker_gray" />
 </RelativeLayout>
