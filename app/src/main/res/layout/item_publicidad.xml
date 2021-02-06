@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    tools:context=".MupiActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/publicidad_name_text_view"
+        android:layout_marginTop="8sp"
+        android:layout_marginStart="8sp"
+        android:layout_marginEnd="8sp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="Medicos sin fronteras"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/date_text_view"
+        android:layout_below="@+id/publicidad_name_text_view"
+        android:layout_marginEnd="8sp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp"
+        tools:text="Feb 14, 2018"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/date_text_view"
+        android:layout_margin="8sp"
+        android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>

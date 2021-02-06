@@ -41,7 +41,7 @@ public class MupisAdapter extends FirestoreRecyclerAdapter<MupiModel, MupisAdapt
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.view_mupis, parent, false );
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_publicidad, parent, false );
         return new ViewHolder(view);
     }
 
